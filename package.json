@@ -1,0 +1,19 @@
+{
+  "name": "avi-wx-api",
+  "version": "1.0.0",
+  "description": "Aviation weather API",
+  "main": "aviationWxApi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htisaksen/AVI-WX-API.git"
+  },
+  "author": "Taka Isaksen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/htisaksen/AVI-WX-API/issues"
+  },
+  "homepage": "https://github.com/htisaksen/AVI-WX-API#readme"
+}
