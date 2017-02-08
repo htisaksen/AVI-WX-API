@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/htisaksen/AVI-WX-API/issues"
   },
-  "homepage": "https://github.com/htisaksen/AVI-WX-API#readme"
+  "homepage": "https://github.com/htisaksen/AVI-WX-API#readme",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "xml2js": "^0.4.17"
+  }
 }
