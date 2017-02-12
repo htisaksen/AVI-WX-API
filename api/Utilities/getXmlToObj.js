@@ -20,8 +20,6 @@ module.exports = function getXML(xmlUrl,callback){
           res.on('end', function() {
             parser.parseString(data, function(err, result) {
               //console.log('FINISHED', err, result);
-              //var json = JSON.stringify(result)
-              //console.log(json)
               return callback(result);
             });
           });
