@@ -12,6 +12,10 @@
   },
   "author": "Taka Isaksen",
   "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "chai": "^3.5.0"
+  },
   "bugs": {
     "url": "https://github.com/htisaksen/AVI-WX-API/issues"
   },
