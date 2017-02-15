@@ -11,7 +11,7 @@ module.exports = function getXML(xmlUrl,callback){
   //error check on xml2js parse
   parser.on('error', function(err) { console.log('Parser error', err); });
 
-
+  //Provides raw converted XML to Json.
     https.get(xmlUrl, function(res) {
         if (res.statusCode >= 200 && res.statusCode < 400) {
           res.on('data', function(data_) {
@@ -19,7 +19,6 @@ module.exports = function getXML(xmlUrl,callback){
           });
           res.on('end', function() {
             parser.parseString(data, function(err, result) {
-              //console.log('FINISHED', err, result);
               return callback(result);
             });
           });

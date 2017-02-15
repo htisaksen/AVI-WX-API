@@ -9,3 +9,8 @@
 - http://services.faa.gov/docs/basics/ (FAA AIRPORT STATUS API, possible NOTAMs)
 
 - ftp://tgftp.nws.noaa.gov/data/ (NOAA weather data(mostly in text) Routes for TAFs and METARs)
+
+#API v1
+- Most Recent METAR
+- TAF
+- Possible NOTAMS
