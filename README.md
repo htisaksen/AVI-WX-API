@@ -13,7 +13,7 @@
 - Some airports do not provide TAF services
 - https://aviationweather.gov/adds/dataserver_current/httpparam?dataSource=tafs&requestType=retrieve&format=xml&hoursBeforeNow=0&stationString=PHTO
 
-# NOTAMs
+# NOTAMs (Work In Progress)
 - Need to find viable source
 
 # Resources
@@ -23,7 +23,7 @@
 
 - 
 
-#API v1
+#API v1 (Work In Progress)
 - Most Recent METAR
 - TAF
 - Possible NOTAMS
