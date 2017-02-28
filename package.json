@@ -4,7 +4,7 @@
   "description": "Aviation weather API",
   "main": "aviationWxApi.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./test/index.test.js"
   },
   "repository": {
     "type": "git",
@@ -13,8 +13,9 @@
   "author": "Taka Isaksen",
   "license": "ISC",
   "devDependencies": {
-    "mocha": "^3.2.0",
-    "chai": "^3.5.0"
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.2.0"
   },
   "bugs": {
     "url": "https://github.com/htisaksen/AVI-WX-API/issues"

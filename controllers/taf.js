@@ -7,7 +7,11 @@ router.get('/:airportId',function(req, res){
   airport = req.params.airportId
   addsEndpoint = "https://aviationweather.gov/adds/dataserver_current/httpparam?dataSource=tafs&requestType=retrieve&format=xml&hoursBeforeNow=0&stationString="+airport
   return getXml(addsEndpoint, function(json){
-    res.json(json.response.data[0].TAF);
+    if(json.response.data[0].TAF){
+      res.json(json.response.data[0].TAF);
+    } else {
+      res.json({"error":"Invalid Airport or no TAF services at Airport"})
+    }
   });
 })
 
