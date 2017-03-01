@@ -28,3 +28,6 @@
 - TAF
 - Possible NOTAMS
 - clean up json output
+
+#API v2 
+- In the event of wx source outage, store TAF data to provide continuous wx service 
