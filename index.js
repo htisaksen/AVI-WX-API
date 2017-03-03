@@ -5,6 +5,9 @@ var bodyParser = require('body-parser');
 
 app.use(bodyParser.json());
 
+//prettify json output
+app.set('json spaces', 2);
+
 // Routes are in controllers
 app.use(require('./controllers'));
 

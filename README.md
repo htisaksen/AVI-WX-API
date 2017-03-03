@@ -17,14 +17,14 @@
 - Need to find viable source
 
 # Resources
+
+- Weather sources come from aviationweather.gov
+
 - http://services.faa.gov/docs/basics/ (FAA AIRPORT STATUS API, possible NOTAMs)
 
 - ftp://tgftp.nws.noaa.gov/data/ (NOAA weather data(mostly in text) Routes for TAFs and METARs)
-
-- 
 
 #API v1 (Work In Progress)
 - Most Recent METAR
 - TAF
 - Possible NOTAMS
-- clean up json output
