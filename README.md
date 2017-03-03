@@ -28,3 +28,10 @@
 - Most Recent METAR
 - TAF
 - Possible NOTAMS
+<<<<<<< HEAD
+=======
+- clean up json output
+
+#API v2 
+- In the event of wx source outage, store TAF data to provide continuous wx service 
+>>>>>>> b491969771bddeb35e770020f9077bdb74263e8a
