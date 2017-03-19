@@ -11,7 +11,7 @@ describe('Weather API Tests', function() {
     chai.request('http://localhost:3000')
       .get('/metar/kjfk')
       .end(function(err, res) {
-        expect(res).to.be.a('object');
+        expect(res.status).to.be.a(200);
         done();
       });
   });
@@ -20,7 +20,7 @@ describe('Weather API Tests', function() {
     chai.request('http://localhost:3000')
       .get('/taf/kjfk')
       .end(function(err, res) {
-        expect(res).to.be.a('object');
+        expect(res.status).to.be.a(200);
         done();
       });
   });
